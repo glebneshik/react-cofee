@@ -1,0 +1,50 @@
+.card {
+    min-height: 495px;
+    padding: 80px 0 0 0;
+    background: url("../../img/paper-1074131_1920.png") center center / cover no-repeat;
+    &__block {
+        &_title {
+            font-family: 'Merienda';
+            font-size: 24px;
+            line-height: 35px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        gap: 70px;
+        &_item {
+            display: flex;
+            align-items: center;   
+            flex-direction: column;
+            padding: 22px 30px 24px 30px;         
+            width: 220px;
+            height: 240px;
+            background: rgba(255, 255, 255, 0.65);
+            border-radius: 8px;
+            margin-top: 30px;
+            img {
+                width: 150px;
+                height: 130px;
+            }
+            &-descr {
+                margin-top: 14px;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                color: #000000;
+            }
+            &-price {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+                margin-left: 120px;
+                margin-top: 10px;
+                color: #000000;
+            }
+        }
+    }
+}   
